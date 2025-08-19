@@ -1,0 +1,59 @@
+header {
+    background-color: #e0f2f1;
+    padding: 1rem 2rem;
+    display: grid;
+    height: 50px;
+   
+    align-items: center;
+    border-bottom: 2px solid #c8e6c9;
+}
+.body{
+    background-color: whitesmoke;
+}
+
+.Faq {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial, sans-serif;
+}
+
+.Faq h2 {
+    position: relative;
+    margin-left: 300px;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: forestgreen;
+}
+
+details {
+  border: 2px solid forestgreen;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background-color:forestgreen;
+  color:beige
+}
+
+summary {
+    text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+}
+
+summary:focus {
+    text-align: center;
+  outline: 2px solid beige;
+  padding: 2px;
+}
+
+details[open] summary {
+  color:beige;
+}
+
+details p {
+    text-align: center;
+  margin: 0.5rem 0 0;
+  padding: 0.5rem;
+}

@@ -1,0 +1,41 @@
+footer {
+    background-color: #fefcf6;
+    padding: 16px 24px;
+    text-align: center;
+    font-size: 13px;
+    border-top: 2px solid #c8e6c9;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 8px;
+}
+
+header {
+    background-color: #e0f2f1;
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    border-bottom: 2px solid #c8e6c9;
+}
+
+.logo {
+    font-size: 29px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.logo span {
+    color: #1565c0;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1565c0;
+    font-weight: 500;
+}
